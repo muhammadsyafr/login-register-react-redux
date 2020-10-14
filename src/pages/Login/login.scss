@@ -1,0 +1,51 @@
+@import "../../assets/main.scss";
+
+html {
+  background-color: white;
+}
+
+.section img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+.interactive-bg {
+  height: 100vh;
+  background-color: #e77f67;
+  // background-image: url("https://images.unsplash.com/photo-1583796715174-3f94b5f67871?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80");
+  background-image: url("https://i.postimg.cc/NFxTygyv/photo-1583796715174-3f94b5f67871-1-1.jpg");
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 769px) {
+  .interactive-bg {
+    display: none;
+  }
+}
+
+.login {
+  height: 100vh;
+}
+
+.btn-login {
+  width: 100%;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 100px;
+}
+
+.login-logo {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-height: 160px;
+}
+
+.columns {
+  margin: 0px;
+}

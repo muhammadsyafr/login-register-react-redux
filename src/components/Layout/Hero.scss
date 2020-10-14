@@ -1,0 +1,66 @@
+@import "../../assets/main.scss";
+
+@media only screen and (max-width: 1023px) {
+  .column-right {
+    display: none;
+  }
+
+  .is-three-fifths {
+    text-align: left;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  .is-2 {
+    font-size: 24px !important;
+    font-weight: bold!important;
+  }
+
+  .is-3 {
+    font-size: 0px !important;
+    margin-bottom: 30px!important;
+    // margin-top: 0px!important;
+  }
+}
+
+.txt-btn {
+  font-weight: bold;
+  font-family: "Nunito";
+  font-size: 14px;
+}
+
+.hero-body {
+  height: 90.5vh;
+  background-color: #546de5;
+  margin-top: 50px;
+}
+
+.is-three-fifths{
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.title-text {
+  color: white !important;
+  font-size: 46px!important;
+}
+
+.is-3 {
+  font-size: 21px!important;
+  font-family: "Raleway";
+  color: rgb(240, 240, 240)!important;
+  letter-spacing: 2px;
+}
+
+.column-right {
+  margin-top: 30px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-image: url("https://assets-global.website-files.com/5bfd1275cc56e15ce750b18e/5d0521f085f49bbf35a43c94_20.png");
+}
+
+.btn-reg {
+    width: 150px;
+}
+

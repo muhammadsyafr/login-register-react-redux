@@ -1,0 +1,54 @@
+@import "../../assets/main.scss";
+
+nav {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+@media only screen and (max-width: 1023px) {
+  nav {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .navbar-start {
+    padding-left: 15px!important;
+  }
+
+  .btn-menu {
+    color: whiteimportant;
+    background-color: #546de5!important;
+  }
+}
+
+.navbar-start {
+  padding-left: 10px;
+  font-weight: bold;
+  font-family: "Nunito";
+  font-size: 14px;
+}
+
+.navbar-brand h1 {
+  padding-left: 15px;
+  font-size: 20px;
+  font-family: "Nunito";
+  font-weight: bold;
+}
+
+.brand-scroll {
+  padding-left: 15px;
+  color: #546de5;
+}
+
+.navbar-item:hover {
+  background-color: transparent !important;
+}
+
+.button {
+  outline: none!important;
+  border: none!important;
+}
+
+
+
+

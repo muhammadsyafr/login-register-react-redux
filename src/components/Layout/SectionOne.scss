@@ -1,0 +1,75 @@
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .is-content {
+        margin-top: -90px !important;
+    }
+    
+    
+    .title-box {
+        margin-top: 0.5%;
+    }
+    
+    .content-box {
+        padding: 0px 20px 0px 20px;
+        color: #949494 !important;
+    }
+    
+    .langkah-section {
+        margin-top: 10%;
+    
+        // margin-bottom: 10%;
+        .columns {
+            // margin-top: 80px;
+        }
+    
+        .title-langkah {
+            font-size: 32px !important;
+            margin-bottom: 100px !important;
+        }
+    
+        .title-perlangkah {
+            margin-top: 80px;
+        }
+    
+        .title {
+            font-family: 'Nunito';
+        }
+    
+        .subtitle {
+            margin-top: 5px !important;
+            font-size: 16px;
+            font-family: 'Poppins';
+            letter-spacing: 1px;
+        }
+    
+        img {
+            width: 80% !important;
+            -moz-transform: skewY(-15deg);
+            -webkit-transform: skewY(5deg);
+        }
+    }
+    
+    .level {
+        margin-top: 150px;
+        background-color: #546de5;
+        padding: 50px;
+        color: white;
+    
+        .title {
+            color: white;
+        }
+    }
+    
+    .wave-footer {
+        margin-top: -120px;
+        margin-bottom: -200px;
+        background-color: #fafafa;
+        height: 450px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        background-image: url("https://svgshare.com/i/JJW.svg");
+    }
+}
